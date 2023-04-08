@@ -1,0 +1,9 @@
+.tshirt-card-designs{
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+}
+
+.tshirt-card-designs img{
+    border-bottom: 5px solid #eee;
+}

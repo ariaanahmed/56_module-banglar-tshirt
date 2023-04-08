@@ -10,9 +10,10 @@ import Home from './Components/Home/Home';
 import Order from './Components/Order/Order';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
+
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <MainLayout/>,
     children: [
       {
@@ -25,17 +26,16 @@ const router = createBrowserRouter([
         element: <Order/>
       },
       {
-        path: '/about',
+        path: 'about',
         element: <About/>
       },
       {
-        path: '/contact',
+        path: 'contact',
         element: <Contact/>
       }
     ]
-  }
-])
-
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

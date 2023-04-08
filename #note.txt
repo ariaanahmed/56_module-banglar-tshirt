@@ -1,2 +1,10 @@
 56-1 Another Recap of React Router Setup
 
+to see preview ">Markdown: open preview"
+
+56-2 Display TShirts and style t-shirt components
+
+56-3 Recap Remove from cart and not allow duplicate
+
+8:34 sec
+

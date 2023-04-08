@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const MainLayout = () => {
     return (
         <div>
-            <Header/>
-            <Outlet/>
+            <Header />
+            <Outlet />
+            <ToastContainer/>
         </div>
     );
 };
